@@ -5,6 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items:center;
+  width: 100%;
+  height: 80px;
   border-bottom: solid 1px black;
 }
 .logo {
@@ -17,4 +19,36 @@
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.content {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+.lead-story {
+  border: medium solid black;
+}
+.story {
+  border: medium solid black;
+}
+.text-content  {
+  border: thin solid black;
+}
+.image-content  {
+  border: thin solid black;
 }
