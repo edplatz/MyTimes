@@ -1,3 +1,10 @@
+body{
+    margin: 0;
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    color: black;
+}
+
 .header {
   font-family: Verdana;
   font-size: 14px;
@@ -27,6 +34,7 @@ nav span {
 .column {
   display: flex;
   flex-direction: column;
+  border: thin solid black;
 }
 
 .column.large {
@@ -40,6 +48,8 @@ nav span {
 .column.small {
   width: 240px;
 }
+
+
 .lead-story {
   border: medium solid black;
 }
@@ -50,5 +60,31 @@ nav span {
   border: thin solid black;
 }
 .image-content  {
+  display: flex;
+  flex-direction: column;
+  border: thin solid black;
+  height: 300px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.lead-story .image-content {
+  background-image: url("../../resources/images/img-story-main.png");
+  font-size: 40px;
+}
+.fall-cancelled.image-content {
+  background-image: url("../../resources/images/img-story-2.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("../../resources/images/img-story-3.png");
+}
+.cat-ceo.image-content {
+  background-image: url("../../resources/images/img-story-1.png");
+}
+.news-bites {
+  border: thin solid black;
+}
+.cookie {
   border: thin solid black;
 }
